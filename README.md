@@ -11,6 +11,7 @@ Collection de mes write-ups de machines HTB. Chaque dossier contient une analyse
 | Box | OS | Difficulté | Techniques clés | Statut |
 |-----|----|-----------:|-----------------|--------|
 | [Bedside](./Bedside/) | 🐧 Linux | Medium | pdfminer.six RCE (pickle) · Docker · Vite LFI · torch.load privesc | ✅ |
+| [Fireflow](./Fireflow) | 🐧 Linux | Medium | Langflow CVE-2026-33017 (RCE) · Password reuse · JWT `alg:none` · K8s `nodes/proxy` privesc | ✅ |
 | _à venir_ | | | | |
 
 ---
